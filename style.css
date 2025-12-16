@@ -1,0 +1,49 @@
+body {
+	background-color: #ededed;
+	font-family: Arial, Sans-serif, Helvetica;
+	text-align: center;
+}
+
+h1 {
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+
+button {
+	background-color: gray;
+	color: white;
+    border: none;
+    padding: 5px 30px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.count_btn {
+	background-color: #00e000;
+	text-shadow: 1px 1px 1px black;
+
+}
+
+button:hover {
+	background-color: black;
+}
+
+.count_btn:hover {
+	background-color: green;
+}
+
+.res {
+	font-size: 20px;
+}
+
+select {
+	background-color: gray;
+	color: white;
+	padding: 2px;
+	width: 20%;
+}
+
+.numb_bar {	
+	padding: 2px;
+	width: 20%;
+}

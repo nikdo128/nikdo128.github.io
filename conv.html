@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>převod jednotek</title>
+	<link rel="stylesheet" href="style.css"></link>
+	
+  </head>
+  
+	<body>
+		<h1>Kalkulačka na převod jednotek</h1>
+      
+	  <input class="numb_bar" type="number" id="conv" placeholder="hodnota k převodu:"><br>
+		<select name="unit" id="jednotka">
+			<option>in -> cm</option>
+			<option>cm -> in</option>
+			<option>°C -> °F</option>
+			<option>°F -> °C</option>
+		</select>
+		
+		<br>
+	  <button class="button count_btn" onclick="Eval()" >Vypočítat</button>
+	  <button class="button def_button" onclick="document.getElementById('conv').value = ''">Vymazat</button>
+	 
+    <p class="res" id="res"></p><br>
+	<p>&copy;2025 LN</p>
+	
+	</body>
+<script src="conv.js"></script>
+  </html>
